@@ -1,0 +1,23 @@
+.glyphicon-chevron-right, 
+.glyphicon-chevron-down {
+	font-size: 11px;
+	vertical-align: top;
+	margin-right: .3em;
+	cursor: pointer;
+}
+
+.curso-content,
+.disciplina-content,
+.semestre-content {
+	margin-bottom: 10px;
+}
+
+.semestre {
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+
+.prova {
+	font-size: 12px;
+	margin: 5px 0px;
+}

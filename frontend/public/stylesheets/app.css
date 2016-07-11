@@ -1,0 +1,56 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.body {
+	padding: 20px 4%;
+}
+
+.header {
+	padding: 15px 4%;
+	background-image: url("../resources/images/blackboard.jpg");
+
+}
+
+.header-title a {
+	color: #fff;
+	/*font-family: "Lucida Console", Monaco, monospace;*/
+	font-family: "Brush Script MT", cursive;
+	/*font-family: Papyrus, fantasy;*/
+	background: none;
+	font-size: 60px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.nav-pills li {
+	/* background-color: #505050; */
+	background: none;
+}
+.nav-pills {
+	margin: 18px 0px;
+}
+
+.nav-pills > li > a {
+	font-size: 20px;
+	color: #fff;
+	border-radius: 0px;
+}
+
+.nav>li>a:focus {
+	text-decoration: none;
+	color: #fff;
+	background: none;
+}
+
+.nav>li>a:hover {
+	text-decoration: none;
+	color: #9acae6;
+	/*font-style: oblique;*/
+	background: none;
+}
+
+p {
+	font-size: 20px;
+	text-align: justify;
+}

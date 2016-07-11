@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Guia Provas</title>
+		<link rel="icon" href="public/resources/favicon-minerva.png">
+
+		<!-- javascript dependencies -->
+		<script type="text/javascript" src="public/bower_components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="public/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="public/bower_components/angular/angular.min.js"></script>
+		<script type="text/javascript" src="public/bower_components/angular-route/angular-route.min.js"></script>
+		<script type="text/javascript" src="public/bower_components/angular-animate/angular-animate.min.js"></script>
+		<script type="text/javascript" src="public/bower_components/ng-file-upload/ng-file-upload.min.js"></script>
+
+
+		<!-- controllers -->
+		<script type="text/javascript" src="public/scripts/app.js"></script>
+		<script type="text/javascript" src="public/scripts/controllers/sobreCtrl.js"></script>
+		<script type="text/javascript" src="public/scripts/controllers/uploadCtrl.js"></script>
+
+		<!-- styles -->
+		<link rel="stylesheet" type="text/css" href="public/bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="public/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" href="public/stylesheets/app.css">
+	</head>
+
+
+	<body ng-app="app" ng-controller="MainCtrl">
+
+		<div class="header row">
+			<div class="header-title col-md-9">
+				<a href="#/home">Guia Provas</a>
+			</div>
+			<div class="nav nav-pills col-md-3">
+				<li role="presentation"><a href="#/home">Home</a></li>
+				<li role="presentation"><a href="#/sobre">Sobre</a></li>
+				<li role="presentation"><a href="#/upload">Upload</a></li>
+			</div>
+		</div>
+
+		<div ng-view class="body"></div>
+
+		
+	</body>
+
+	<footer></footer>
+</html>
